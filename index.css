@@ -1,0 +1,197 @@
+.body{
+    background-color: rgb(0, 0, 0);;
+}
+
+.banner {
+    background-color: rgb(17, 20, 56);
+    padding: 16px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+      }
+   .logo-binding {
+   font-size: 60px;
+   font-weight: bold;
+   text-align: center;
+      }
+   
+      .navbar {
+        background-color: #f8f9fa;
+      }
+  
+      .navbar-brand {
+        font-weight: bold;
+        font-size:35px;
+        color: #333;
+      }
+  
+      .navbar-toggler {
+        border: none;
+        background-color: transparent;
+      }
+  
+     
+    
+      .section-title {
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 30px;
+        color:rgb(5, 4, 4);
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+  
+      .big-box {
+        width: 700px;
+        height: 400px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: #211c68;
+        margin-bottom: 800px;
+      }
+  
+      .big-box-button {
+        padding: 110px 140px;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 10px;
+     
+        background-color: #f2f2f2;
+        border: 2px solid #353131;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+  
+      .big-box-button:hover {
+        background-color: #e6e6e6;
+      }
+      .form-control {
+        border-radius: 8px;
+      }
+
+      .modal-dialog {
+        position: absolute;
+        left: 5%;
+        right: 8%;
+        top: 2%;
+        bottom: 35%;
+        max-width: 900px;
+        margin: auto;
+      }
+      .custom-modal-content {
+        border: 2px solid #000000;
+        width: 80%;
+        max-width: 800px;
+         font-size: 20px;
+         overflow: hidden;
+      }
+      
+      .custom-modal-title {
+        text-align: left;
+        font-size:25px;
+      }
+      
+      .custom-label {
+        font-weight: bold;
+      }
+      
+      .custom-input {
+        border: 1px solid #000000;
+        font-size:17px;
+      }
+      
+      .btn-danger,
+.btn-success {
+  width: 45%; 
+  font-size: 1.25rem;
+  padding: 0.75rem;
+  margin-right: 0.5rem;
+}
+
+.btn-danger {
+  background-color: #972a35;
+  border-color: #dc3545;
+}
+
+.btn-success {
+  background-color: #338f49;
+  border-color: #28a745;
+}
+
+.btn-danger:hover,
+.btn-success:hover {
+  opacity: 0.8;
+}
+
+
+  
+  .section {
+    flex-basis: calc(50% - 1px);
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #000000;
+  }
+  
+  .section:first-child {
+    margin-right: 50px;
+  }
+  
+  h2.section-title{
+    font-size: 35px;
+  }
+  .section-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -720px; /* Adjust the margin-top value as needed */
+  }
+
+  
+  .expense-amount,
+.income-amount {
+  font-size: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #130c0c;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right:60px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.expense-amount:hover,
+.income-amount:hover {
+  background-color: #e0e0e0;
+}
+
+.expense-details,
+.income-details {
+  margin-top: 10px;
+  display: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.savings-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color:rgb(6, 5, 5);
+  }
+    .income-extra-details {
+      background-color: #f9f9f9;
+      padding: 10px;
+      margin-top: 10px;
+    }
