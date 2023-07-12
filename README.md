@@ -16,4 +16,4 @@ The login is authenticated using PHP, in order to run, you can define your avail
 
 <em>php -S localhost:'portno'</em>
 
-P.S - You need to make changes in the name of the db and password, along with server name, and change it according to your locally created db(MYSQL is usually preferred).
+<strong>P.S - You need to make changes in the name of the db and password, along with server name, and change it according to your locally created db(MYSQL is usually preferred).</strong>
