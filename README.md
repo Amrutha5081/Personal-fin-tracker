@@ -14,6 +14,6 @@ Commands:
 
 The login is authenticated using PHP, in order to run, you can define your available port number, and run it using
 
-<em>-php -S localhost:'portno'</em>
+<em>php -S localhost:'portno'</em>
 
 P.S - You need to make changes in the name of the db and password, along with server name, and change it according to your locally created db(MYSQL is usually preferred).
