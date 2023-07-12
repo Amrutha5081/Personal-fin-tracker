@@ -1,6 +1,7 @@
 # Personal-fin-tracker
 
 <p>This is a simple personal-finance tracker application that keeps a track of your finances and helps you manage it effectively. The income and expenses are calculated upon which the savings will be automatically generated.</p>
+<p>Made using Vue JS and PHP with MySQL data insertion.</p>
 
 To run this, you need to connect to your local database, and create a simple table having fields as 'username' and 'password'
 
